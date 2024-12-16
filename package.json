@@ -1,0 +1,19 @@
+{
+  "name": "testing-labs",
+  "version": "1.0.0",
+  "scripts": {
+    "test:unit": "vitest",
+    "test:web-api": "playwright test tests/web-api/test.api.test.ts",
+    "test:ui": "playwright test tests/ui/test.ui.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.8.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
